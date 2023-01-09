@@ -1,0 +1,27 @@
+{
+  "name": "erc-4337-react-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexisdavidson/erc-4337-react-login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexisdavidson/erc-4337-react-login/issues"
+  },
+  "homepage": "https://github.com/alexisdavidson/erc-4337-react-login#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4"
+  }
+}
