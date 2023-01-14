@@ -1,2 +1,2 @@
-import MyCounter from './components/App';
-export { MyCounter };
+import Erc433GoogleLogin from './components/App';
+export { Erc433GoogleLogin };

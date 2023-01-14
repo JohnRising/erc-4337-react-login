@@ -1,3 +1,4 @@
-import MyCounter from './components/App'
+import GoogleLogin from './components/App'
+import helloWorld from './components/App'
 
-export { MyCounter }
+export { helloWorld }

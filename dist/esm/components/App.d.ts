@@ -1,6 +1,3 @@
 /// <reference types="react" />
-type Props = {
-    value?: number;
-};
-declare const MyCounter: ({ value }: Props) => JSX.Element;
-export default MyCounter;
+declare const Erc433GoogleLogin: () => JSX.Element;
+export default Erc433GoogleLogin;

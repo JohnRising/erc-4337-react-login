@@ -1,5 +1,5 @@
 {
-  "include": ["src"],
+  "include": ["src","src/**/*"],
   "exclude": [
     "dist",
     "node_modules"
@@ -12,6 +12,7 @@
     "sourceMap": true,
     "rootDir": "./src",
     "outDir": "./dist/esm",
+    "target": "es2015",
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
