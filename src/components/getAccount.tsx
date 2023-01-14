@@ -1,5 +1,6 @@
 import { ethers } from "ethers";
 import { getSimpleAccount } from "./getSimpleAccount";
+import keccak256 from "keccak256"
 
 const getAccount = async (config: any) => {
     console.log("getAccount")
@@ -12,10 +13,13 @@ const getAccount = async (config: any) => {
         config.simpleAccountFactory
     );
     const address = await accountAPI.getCounterFactualAddress();
+    const wallet = ethers.Wallet.createRandom()
 
-    console.log(`SimpleAccount address: ${address}`);
-
-    return address
+    // returns public key of the EOA, an encrypted private key, and the address of the smart contract account
+    return {
+        publicKey: wallet.address,
+        encryptedPrivateKey: keccak256(wallet.privateKey),
+        smartContractAddress: address}
 }
 
 export default getAccount
