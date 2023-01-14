@@ -1,4 +1,4 @@
-import GoogleLogin from './components/App'
-import helloWorld from './components/App'
+import GoogleLoginButton from './components/GoogleLoginButton'
+import getAccount from './components/getAccount'
 
-export { helloWorld }
+export { getAccount, GoogleLoginButton }
